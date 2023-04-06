@@ -2,7 +2,7 @@ extends layout
 
 block content
   h2= title
-  - var movies=[{movie_name:"KGF",movie_director:"Prashant",movie_timing:2.5},{movie_name:"RRR",movie_director:"Rajamouli",movie_timing:3},{movie_name:"PAPA",movie_director:"srinivas",movie_timing:2}]
+  - var movies=[{movie_name:"KGF",movie_director:"Prashant",movie_timing:2},{movie_name:"RRR",movie_director:"Rajamouli",movie_timing:3},{movie_name:"PAPA",movie_director:"srinivas",movie_timing:2}]
   div(class="container-fluid")
     div(class="row")
         each m,index  in movies
